@@ -1,0 +1,7 @@
+function myWindowOnload(func) {
+  if (document.readyState === "complete") {
+    func();
+  } else {
+    window.addEventListener('load', func);
+  }
+}
