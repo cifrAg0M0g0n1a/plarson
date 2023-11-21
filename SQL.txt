@@ -1,0 +1,3 @@
+SELECT ID, CurrentMonth, DayCount
+FROM table
+LIMIT 12
